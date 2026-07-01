@@ -52,11 +52,13 @@ pip install -r requirements.txt
 
 ## Usage
 
+```bash
 git clone git@github.com:stanfordnlp/stanza.git
 mv sample.txt stanza/
 mv run_balochi.py stanza/
 cd stanza
 source scripts/config.sh
+```
 
 Run the pipeline on a text file:
 
